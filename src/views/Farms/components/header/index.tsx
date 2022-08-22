@@ -29,10 +29,10 @@ const Header = () => {
             {/* <Link containerId="about" spy={true} smooth={true} className="menuitem">Grill section</Link> */}
             </Stack>
             <Stack className={styles.header_right} justifyContent='right'  direction='row' alignItems='center' spacing={2}>
-              <a href='jack-inu.gitbook.io/docs/' target='_blank'>WHITEPAPER</a>
-              <a href='/'>BUY JACK</a>
+            <a href='https://jack-inu.gitbook.io/docs' target='_blank' rel="noreferrer">WHITEPAPER</a>
+              <a href='https://pancakeswap.finance/swap?outputCurrency=0x81b8341329ec97e109b604D3C877065A5164aEc1' target='_blank' rel='noreferrer'>BUY JACK</a>
               <a href='/'>PLAY BONE HUNTER</a>
-              <a href='/farms'>EARN</a>
+              <a href='/farms'>FARM</a>
             </Stack>
           </Box>
 
@@ -46,10 +46,10 @@ const Header = () => {
             <Stack className={styles.hambuger_menu} direction='column' spacing={2}>
               
               <Stack className={styles.header_right}  direction='row' alignItems='start'  flexWrap='wrap'>
-                <a href='jack-inu.gitbook.io/docs/' target='_blank'>WHITEPAPER</a>
-                <a href='/'>BUY JACK</a>
+              <a href='https://jack-inu.gitbook.io/docs' target='_blank' rel="noreferrer">WHITEPAPER</a>
+              <a href='https://pancakeswap.finance/swap?outputCurrency=0x81b8341329ec97e109b604D3C877065A5164aEc1' target='_blank' rel='noreferrer'>BUY JACK</a>
                 <a href='/'>PLAY BONE HUNTER</a>
-                <a href='/farms'>EARN</a>
+                <a href='/farms'>FARM</a>
               </Stack>
             </Stack>
         }
